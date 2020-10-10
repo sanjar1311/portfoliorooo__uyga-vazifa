@@ -17,6 +17,7 @@ body {
   line-height: 1.5;
   background-color: #fff;
   color: #222;
+  overflow-y: hidden;
 }
 
 img {
@@ -45,7 +46,27 @@ img {
 }
 
 
+.nav-list {
+  display: flex;
+  list-style: none;
+}
 
+.nav-list-2 {
+  display: flex;
+  list-style: none;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  margin:  50px;
+}
+
+.nav-list-2:first-child {
+  margin-right: 50px;
+}
 
 
 @media
